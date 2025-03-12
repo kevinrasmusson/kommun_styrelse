@@ -9,12 +9,10 @@
 <body>
     <h1>Maktfördelning i kommuner</h1>
     <div class="search">
-        <input type="file" id="upload" accept="xlsx">
         <input type="text" id="searchInput" placeholder="Sök på kommun">
-        <button id="searchButton" >Sök</button>
+        <button id="searchButton">Sök</button>
     </div>
-    <div id="resultat"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
-    <script src="js/main.js"></script>
+    <div id="results"></div>
+    <script type="module" src="js/main.js"></script>
 </body>
+</html>
